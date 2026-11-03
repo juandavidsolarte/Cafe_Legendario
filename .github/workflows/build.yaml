@@ -43,4 +43,4 @@ jobs:
             -Dsonar.organization=cafelegendario
             -Dsonar.projectKey=cafelegendario_cafelegendario-front
             -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
-            -Dsonar.coverage.exclusions=src/main.jsx,src/services/mockData.js,src/test/**
+            -Dsonar.coverage.exclusions=src/main.jsx,src/services/mockData.js,src/test/**,src/**/__tests__/**
