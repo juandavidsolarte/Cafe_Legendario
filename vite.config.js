@@ -8,7 +8,7 @@ export default defineConfig({
     environment: 'jsdom',
     globals: true,
     setupFiles: ['./src/test/setup.js'],
-    include: ['src/test/**/*.test.{js,jsx}'],
+    include: ['src/test/**/*.test.{js,jsx}', 'src/**/__tests__/**/*.test.{js,jsx}'],
     coverage: {
       provider: 'v8',
       // lcov lo lee SonarQube; text se muestra en la terminal.
